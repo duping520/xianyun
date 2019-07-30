@@ -4,14 +4,17 @@
     <Toubu />
     <!-- 占位符   新写法  nuxt -->
     <nuxt />
+    <Dibu />
   </div>
 </template>
 
 <script>
 import Toubu from "@/components/toubu.vue";
+import Dibu from "@/components/dibu.vue";
 export default {
   components: {
-    Toubu
+    Toubu,
+    Dibu
   }
 };
 </script>
